@@ -1,0 +1,37 @@
+header h1:nth-of-type(2){
+    background-color: green;
+}
+header h1:nth-of-type(7){
+    background-color: green;
+}
+span:nth-of-type(2) :nth-child(10){
+    background-color: aqua;
+}
+h1:nth-child(16){
+    background-color: rgb(114, 210, 19)
+}
+div:nth-of-type(1) h1:nth-child(6){
+    background-color: pink;
+}
+section p:nth-child(2){
+    background-color: rgb(230, 83, 193);
+}
+/* section h1:nth-of-type(2){
+    background-color: rgb(219, 139, 54);
+} */
+/* span:nth-of-type(1) h1:nth-of-type(1) {
+    background-color: rgb(40, 196, 175);
+} */
+header div span:nth-of-type(2) h1:nth-of-type(2) {
+    background-color: red;
+}
+
+h1:nth-child(19){
+    background-color: rgb(189, 11, 11);
+}
+h1:nth-child(24){
+    background-color: rgb(189, 11, 11);
+}
+h1:nth-child(2) span:nth-child(2) {
+    color: rgb(160, 28, 125);
+}
