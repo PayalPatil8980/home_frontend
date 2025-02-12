@@ -1,18 +1,28 @@
 header h1:nth-of-type(2){
     background-color: green;
 }
+
 header h1:nth-of-type(7){
     background-color: green;
 }
 span:nth-of-type(2) :nth-child(10){
     background-color: aqua;
 }
-h1:nth-child(16){
+/* h1:nth-child(16){
     background-color: rgb(114, 210, 19)
+} */
+div:last-child h1{
+    background-color: rgb(20, 13, 149);
 }
-div:nth-of-type(1) h1:nth-child(6){
+div:nth-of-type(1) h1:nth-of-type(4){
     background-color: pink;
 }
+h1:nth-child(16) {
+    color: red; /* Change text color */
+    font-weight: bold; /* Make it bold */
+    background-color: yellow; /* Add background color */
+  }
+  
 section p:nth-child(2){
     background-color: rgb(230, 83, 193);
 }
@@ -22,10 +32,12 @@ section p:nth-child(2){
 /* span:nth-of-type(1) h1:nth-of-type(1) {
     background-color: rgb(40, 196, 175);
 } */
+span h1:nth-of-type(1) {
+    background-color: lightgray;
+  }
 header div span:nth-of-type(2) h1:nth-of-type(2) {
     background-color: red;
 }
-
 h1:nth-child(19){
     background-color: rgb(189, 11, 11);
 }
