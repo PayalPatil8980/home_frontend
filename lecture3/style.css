@@ -5,15 +5,9 @@ h1:nth-last-child(20){
 h1:nth-last-child(15){
     background-color: green;
 }
-span:nth-of-type(2) :nth-child(10){
-    background-color: aqua;
-}
+
 div:nth-child(12) h1:nth-of-type(4){
     background-color: pink;
-}
-
-header section:nth-child(17) div + h1:nth-child(3) {
-    background-color: green;
 }
 
 h1:nth-child(16) {

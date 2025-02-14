@@ -1,0 +1,80 @@
+p::after{
+    content: "✅";
+}
+p::before{
+    content: "✅";
+}
+
+p::selection{
+    background-color: green;
+    font-size: 50px;
+    text-decoration: underline;
+    color: white;
+}
+
+h1::first-letter{
+    background-color: pink;
+    color: blue;
+}
+p::first-line{
+    background-color: pink;
+    color: blue;
+}
+input:valid{
+    background-color: green;
+}
+input:invalid{
+    background-color: red;
+}
+::placeholder{
+    color: white;
+}
+::marker{
+    color: red;
+}
+a:link{
+    background-color: orchid;
+}
+a:active{
+    background-color: green;
+}
+a:visited{
+    background-color: blue;
+}
+a:hover{
+    background-color: brown;
+}
+
+.rgb{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(0, 234, 123);
+}
+.rgba{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(23, 45, 64, 0.1)
+}
+.hsl{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: hsl(360 , 50%  , 50%);
+}
+
+.hexa{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #aa00aa;
+}
+
+
+
+
