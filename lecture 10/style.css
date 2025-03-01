@@ -1,0 +1,31 @@
+p{
+    text-transform: uppercase;
+    background-color: rgb(232, 133, 13);
+    height: 300px;
+    width: 600px;
+    background-clip: text;
+    color: transparent;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant:small-caps;
+    font-style: italic;
+
+}
+.box{
+    height: 200px;
+    width: 300px;
+    display: flex;
+}
+.box>div:nth-child(1){
+    background-color: blue;
+}
+.box>div:nth-child(2){
+    background-color: brown;
+}
+.box>div:nth-child(3){
+    background-color: pink;
+}
+.box>div:nth-child(4){
+    background-color: rgb(50, 179, 74);
+}

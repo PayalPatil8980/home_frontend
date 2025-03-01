@@ -1,0 +1,13 @@
+ eli{
+    background-color: brown;
+}
+
+div ~ b{
+    background-color: red;
+}
+ul ~ li{
+    background-color: rgb(42, 116, 181);
+}
+#demo ul{
+    list-style:circle;
+}
