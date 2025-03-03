@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/* Css Verticle Align Properties */
+
+.vt-align{
+    font-size: 100px;
+    text-transform: capitalize;
+    /* text-transform: uppercase;
+    text-transform: lowercase; */
+}
+
+.emoji{
+    height: 100px;
+    width: 200px;
+   font-size: 20px;
+   vertical-align: top;
+   vertical-align: bottom;
+   /* vertical-align: text-top; */
+   /* vertical-align: text-bottom; */
+   /* vertical-align: baseline; */
+   /* vertical-align: middle; */
+   /* vertical-align: super; */
+   /* vertical-align: sub; */
+}
+
+/* Css Visibility */
+
+.box{
+    height: 400px;
+    width: 300px;
+    background-color: purple;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    padding: 20px;
+    visibility: collapse;
+    visibility: hidden;
+    visibility: visible;
+    /* display: none; */
+}
+
+
+/* Css Height / Width */
+
+.mainbox{
+    height: 500px;
+    width: 500px;
+}
+
+.maindiv{
+    height: 100%;
+    width: 100%;
+}
+
+.width{
+    height: 100%;
+    width: 100%;
+    background-color:orange;  
+}
+
+span{
+    height:100px;
+    width:100px;
+    /* background-color: black; */
+    display: block;
+}
+
+/* Css Float / clear Properties */
+/* Css Object-fit Properties*/
