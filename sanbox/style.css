@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Manrope, "sans-serif"; 
+}
+.body{
+    height: 800px;
+    background-image: url("main_banner.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: 102% 100%;
+}
+.container{
+    /* border: 1px solid black; */
+    max-width: 1340px;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        margin-top:35px;
+    }
+    .navlinks ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navlinks ul li{
+        margin-top:20px ;
+        margin-right: 20px;
+        padding: 20px;
+    }
+    .navlinks li a{
+        text-decoration: none;
+        color: #343f52;
+        font-weight: bold;
+    }
+}
+.navlinks{
+    display: flex;
+}
+.icons {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #343f52;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-right: 10px;
+}
+.maintext{
+    height: fit-content;
+    width: 550px;
+    /* border: 1px solid black; */
+    margin-top: 140px;
+}
+.first p{
+    font-size: 56px;
+    font-weight: bold;
+    color: #343f52;
+}
+.highlight{
+    background-image: url("underline.svg");
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+.second{
+    margin-top: 20px;
+}
+.second p{
+    font-size: 23px;
+    color: #60697b;
+}
+.animated-text{
+    margin-top: 140px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    animation-name: slideInDown;
+    animation-duration: 700ms;
+    animation-timing-function: ease;
+    animation-delay: 500ms;
+    animation-direction: normal;
+    animation-fill-mode: both;
+}
+.animated-text1{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    animation-name: slideInDown;
+    animation-duration: 700ms;
+    animation-timing-function: ease;
+    animation-delay: 1000ms;
+    animation-direction: normal;
+    animation-fill-mode: both;
+}
+.animated-text2{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    animation-name: slideInDown;
+    animation-duration: 700ms;
+    animation-timing-function: ease;
+    animation-delay: 1500ms;
+    animation-direction: normal;
+    animation-fill-mode: both;
+}
+.button{
+    margin-top: 20px;
+    button{
+        padding: 20px 30px 20px 30px;
+        border-radius: 10px;
+        background-color: #343f52;
+        color: #ffffff;
+        border: none;
+        font-size: 17px;
+        font-weight: bold;
+    }
+}
+.sec_section{
+    height: 80vh;  
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.heading h6{
+    font-size: 15px;
+    color: #aab0bc;
+}
+.heading p{
+    font-size: 40px;
+    color: #343f52;
+    font-weight: bold   ;
+}
+.info{
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black;  */
+    flex-wrap: wrap;
+}
+.support_24{
+    height: 150px;
+    width: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.support_24 i{
+    color: aqua;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    outline: pink;
+}
+.icon {
+    filter: invert(70%) sepia(40%) saturate(500%) hue-rotate(190deg) brightness(95%) contrast(90%);
+}
+
+.desc{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    h3{
+        text-align: left;
+    }
+    p{
+        text-align: left;
+    }
+}
+
+.container1{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+
+}
+.solution{
+    height: fit-content;
+    width: 800px;
+}
+.solution img{
+    height: 700px;
+    width: 800px;
+    object-fit: cover;
+    /* border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px; */
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+}
+@keyframes slideInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px); /* Text upar se aayega */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Apni jagah ruk jayega */
+    }
+}
