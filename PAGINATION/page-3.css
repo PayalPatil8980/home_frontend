@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -52,4 +52,86 @@
     background-color: transparent;
     color: #2a9d8f; 
     transform: scale(1.2);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-trigger {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #32b6ae;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.tooltip-trigger:hover {
+    background-color: #2a9d8f; /* Darker background on hover */
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    height: 30px;
+    text-wrap: nowrap;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position above the trigger */
+    left: 50%;
+    margin-left: -60px; /* Center the tooltip */
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* Arrow at the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent; /* Arrow color */
+}
+
+.tooltip-trigger:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip-text {
+    top: -5px;
+    left: 110%;
+    margin-left: 0;
+}
+
+.tooltip-text::after {
+    top: 50%;
+    left: -10px;
+    margin-top: -5px;
+    border-color: transparent #333 transparent transparent;
 }
