@@ -80,13 +80,12 @@
     background-color: #32b6ae;
     color: white;
     border-radius: 5px;
-    cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
 }
 
 .tooltip-trigger:hover {
-    background-color: #2a9d8f; /* Darker background on hover */
+    background-color: #2a9d8f; 
 }
 
 .tooltip-text {
@@ -101,9 +100,9 @@
     padding: 8px;
     position: absolute;
     z-index: 1;
-    bottom: 125%; /* Position above the trigger */
+    bottom: 125%;
     left: 50%;
-    margin-left: -60px; /* Center the tooltip */
+    margin-left: -60px;
     opacity: 0;
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
@@ -111,12 +110,12 @@
 .tooltip-text::after {
     content: "";
     position: absolute;
-    top: 100%; /* Arrow at the bottom of the tooltip */
+    top: 100%; 
     left: 50%;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: #333 transparent transparent transparent; /* Arrow color */
+    border-color: #333 transparent transparent transparent;
 }
 
 .tooltip-trigger:hover .tooltip-text {
