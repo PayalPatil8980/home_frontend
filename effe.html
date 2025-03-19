@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downward Text Animation</title>
+    <style>
+        .animated-text {
+            margin-top: 140px;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            position: relative;
+            animation-name: slideInDown;
+            animation-duration: 700ms;
+            animation-timing-function: ease;
+            animation-delay: 500ms;
+            animation-direction: normal;
+            animation-fill-mode: both;
+        }
+
+        @keyframes slideInDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px); /* Text upar se aayega */
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0); /* Apni jagah ruk jayega */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="animated-text">Hello, World!</h1>
+
+</body>
+</html>

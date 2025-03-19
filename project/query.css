@@ -1,0 +1,51 @@
+@media (max-width:1400px){
+    .container{
+        max-width: 1320px;
+        margin: auto;
+    }
+}
+
+
+
+@media (max-width:1200px){
+    .container{
+        max-width: 1140px;
+        margin: auto;
+    }
+}
+
+
+
+@media (max-width:992px){
+    .container{
+        max-width: 920px;
+        margin: auto;
+    }
+    .nav-links{
+        display: none;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobile-menu{
+        display: block;
+    }
+}
+
+
+
+@media (max-width:768px){
+    .container{
+        max-width: 720px;
+        margin: auto;
+    }
+}
+
+@media (max-width:576px){
+    .container{
+        max-width: 540px;
+        margin: auto;
+    }
+}
